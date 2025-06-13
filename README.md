@@ -6,12 +6,11 @@ A pixel-perfect clone of the [Google homepage](https://www.google.com), built us
 
 ## 🚀 Live Demo
 
-🔗 [Live Site URL](https://your-deployed-site-link.com)  
-📁 [GitHub Repository](https://github.com/your-username/google-homepage-clone)
+🔗 [Live Site URL](https://r-mg-x-assignment.vercel.app)  
 
 ## 🧰 Tech Stack
 
-- **Framework:** React.js (bootstrapped with Vite)
+- **Library:** React.js (bootstrapped with Vite)
 - **Styling:** CSS (modular, scoped to components)
 - **Deployment:** Vercel / Netlify
 - **Dark Mode:** CSS variables + toggle logic
@@ -20,21 +19,19 @@ A pixel-perfect clone of the [Google homepage](https://www.google.com), built us
 
 ## 📁 Project Structure
 
-src/
-├── components/
-│ ├── Header.jsx
-│ ├── Footer.jsx
-│ ├── SearchBar.jsx
-│ └── ToggleMode.jsx 
-│
-├── style/
-│ ├── header.css
-│ ├── footer.css
-│ ├── searchbar.css
-│ └── togglemode.css 
-│
-├── App.jsx
-├── main.jsx
+- src/
+  - components/
+    - Header.jsx
+    - Footer.jsx
+    - SearchBar.jsx
+    - ToggleMode.jsx
+  - style/
+    - header.css
+    - footer.css
+    - searchbar.css
+    - togglemode.css
+  - App.jsx
+  - main.jsx
 
 
 
