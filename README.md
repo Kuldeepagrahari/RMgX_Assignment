@@ -12,7 +12,7 @@ A pixel-perfect clone of the [Google homepage](https://www.google.com), built us
 
 - **Library:** React.js (bootstrapped with Vite)
 - **Styling:** CSS (modular, scoped to components)
-- **Deployment:** Vercel / Netlify
+- **Deployment:** Vercel
 - **Dark Mode:** CSS variables + toggle logic
 
 ---
