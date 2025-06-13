@@ -1,0 +1,31 @@
+/* src/App.css */
+
+/* Default light theme */
+:root {
+  --bg: #ffffff;
+  --text: #202124;
+  --search-bg: #f1f3f4;
+  --button-bg: #f8f9fa;
+  --button-text: #3c4043;
+  --hover-border: #dadce0;
+}
+
+/* Dark theme when .dark is on <html> */
+.dark {
+  --bg: #202124;
+  --text: #e8eaed;
+  --search-bg: #303134;
+  --button-bg: #3c4043;
+  --button-text: #e8eaed;
+  --hover-border: #5f6368;
+}
+
+/* Optional global styles */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}

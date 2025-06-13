@@ -4,11 +4,13 @@ import '../style/searchbar.css'
 export default function SearchBar() {
   return (
     <section className="search-container">
+     
       <img
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png"
+        src="https://www.google.com/logos/doodles/2025/indian-premier-league-2025-begins-6753651837110716-2x.png"
         alt="Google"
         className="google-logo"
       />
+     
       <div className="search-box">
         <input type="text" placeholder="Search Google or type a URL" />
         <div className="icons">

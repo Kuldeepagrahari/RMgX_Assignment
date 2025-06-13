@@ -1,5 +1,27 @@
-/* src/components/DarkModeToggle.css */
-.dark-mode-toggle {
+
+
+/* LIGHT THEME (default) */
+:root {
+    --bg: #ffffff;
+    --text: #202124;
+    --search-bg: #f1f3f4;
+    --button-bg: #f8f9fa;
+    --button-text: #3c4043;
+    --hover-border: #dadce0;
+  }
+  
+  /* DARK THEME - activated when .dark class is on <html> */
+  .dark {
+    --bg: #202124;
+    --text: #e8eaed;
+    --search-bg: #303134;
+    --button-bg: #3c4043;
+    --button-text: #e8eaed;
+    --hover-border: #5f6368;
+  }
+  
+  /* Toggle switch UI */
+  .toggle-mode {
     position: absolute;
     top: 15px;
     left: 15px;
@@ -22,8 +44,8 @@
     background-color: #ccc;
     border-radius: 24px;
     position: absolute;
-    cursor: pointer;
     inset: 0;
+    cursor: pointer;
     transition: 0.4s;
   }
   
